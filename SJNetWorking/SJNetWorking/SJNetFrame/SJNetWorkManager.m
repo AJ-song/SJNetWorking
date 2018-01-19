@@ -95,11 +95,61 @@
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NetLog(@"创建数组");
+        NetLog(@"创建task数组");
         tasks = [NSMutableArray array];
     });
     return tasks;
 }
+
+/**
+ 所有公共请求错误码对照表
+ */
++(NSDictionary *)errorCode
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NetLog(@"创建错误对应字典");
+        errorCode = [NSDictionary dictionary];
+    });
+    return errorCode;
+}
+/**
+ 请求回调code 对应名称
+ */
++ (NSString *)resultCode
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        resultCode = [NSString string];
+    });
+    return resultCode;
+}
+
+/**
+ 请求回调msg 消息名称
+ */
++ (NSString *)resultMsg
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        resultMsg = [NSString string];
+    });
+    return resultMsg;
+}
+
+
+/**
+ 请求回调 数据 对应名称
+ */
++ (NSString *)result
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        result = [NSString string];
+    });
+    return result;
+}
+
 
 - (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval
 {

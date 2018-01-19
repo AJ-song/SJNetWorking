@@ -83,13 +83,37 @@ typedef void(^ComplectionBlock)(id response, NSError *error);
  */
 typedef NSURLSessionTask UrlSessionTask;
 
-/// 所有任务
-static NSMutableArray *tasks;
+/**
+ 所有 task请求任务(除去视频上传)
+ */
+static NSMutableArray<AFHTTPSessionManager *> *tasks;
 
+/**
+ 所有公共请求错误码对照表
+ */
+static NSDictionary *errorCode;
+
+//{
+//  "resultCode":0,  //0为成功，其他为失败
+//  "resultMsg":"success", //结果message
+//  "result":[    //结果返回数据，可能为 json or jsonArray
+//                ]
+//}
+
+/**
+ 请求回调code 对应名称
+ */
+static NSString *resultCode;
+/**
+ 请求回调msg 消息名称
+ */
+static NSString *resultMsg;
+/**
+ 请求回调 数据 对应名称
+ */
+static NSString *result;
 
 @interface SJNetWorkManager : NSObject
-/// 错误列表
-@property(nonatomic, strong)NSDictionary* dictErrorCodes;
 
 @property(nonatomic, strong) AFHTTPSessionManager* afSessionManager;
 
@@ -136,7 +160,29 @@ static NSMutableArray *tasks;
 - (void)clearAllHttpCache;
 
 /**
- 初始化所有任务
+ 所有 task请求任务(除去视频上传)
  */
 + (NSMutableArray *)tasks;
+
+/**
+  所有公共请求错误码对照表
+ */
++ (NSDictionary *)errorCode;
+
+/**
+ 请求回调code 对应名称
+ */
++ (NSString *)resultCode;
+
+/**
+ 请求回调msg 消息名称
+ */
++ (NSString *)resultMsg;
+
+/**
+ 请求回调 数据 对应名称
+ */
++ (NSString *)result;
+
+
 @end
