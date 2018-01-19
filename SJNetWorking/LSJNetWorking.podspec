@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-s.name         = "SJNetWorking"
+s.name         = "LSJNetWorking"
 s.version      = "0.1.0"
 s.summary      = "网络框架"
 s.description  = "网络框架"
