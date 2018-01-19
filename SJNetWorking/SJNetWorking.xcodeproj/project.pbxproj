@@ -17,11 +17,11 @@
 		CE8F084920118FAD00F34B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F084820118FAD00F34B8A /* main.m */; };
 		CE8F085320118FAD00F34B8A /* SJNetWorkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F085220118FAD00F34B8A /* SJNetWorkingTests.m */; };
 		CE8F085E20118FAD00F34B8A /* SJNetWorkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F085D20118FAD00F34B8A /* SJNetWorkingUITests.m */; };
-		CE8F08712011937500F34B8A /* SJNetWorkManager+Error.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F08702011937500F34B8A /* SJNetWorkManager+Error.m */; };
-		CE8F0874201194F100F34B8A /* SJNetWorkManager+RequestCompletionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F0873201194F100F34B8A /* SJNetWorkManager+RequestCompletionHandle.m */; };
-		CE8F08772011BB6C00F34B8A /* SJNetWorkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F08762011BB6C00F34B8A /* SJNetWorkCache.m */; };
-		CE8F08792011C60600F34B8A /* SJNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F086D201192A700F34B8A /* SJNetWorkManager.m */; };
-		CE8F087C2011D05100F34B8A /* UIImage+CompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F087B2011D05100F34B8A /* UIImage+CompressImage.m */; };
+		CE8F08882011EE3C00F34B8A /* SJNetWorkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F087F2011EE3C00F34B8A /* SJNetWorkCache.m */; };
+		CE8F08892011EE3C00F34B8A /* SJNetWorkManager+Error.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F08812011EE3C00F34B8A /* SJNetWorkManager+Error.m */; };
+		CE8F088A2011EE3C00F34B8A /* SJNetWorkManager+RequestCompletionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F08832011EE3C00F34B8A /* SJNetWorkManager+RequestCompletionHandle.m */; };
+		CE8F088B2011EE3C00F34B8A /* SJNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F08852011EE3C00F34B8A /* SJNetWorkManager.m */; };
+		CE8F088C2011EE3C00F34B8A /* UIImage+CompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F08872011EE3C00F34B8A /* UIImage+CompressImage.m */; };
 		FF5C48A9B8B921C1202197C7 /* libPods-SJNetWorkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F365BDEC2F5051ABD473809E /* libPods-SJNetWorkingTests.a */; };
 /* End PBXBuildFile section */
 
@@ -65,16 +65,16 @@
 		CE8F085920118FAD00F34B8A /* SJNetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJNetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8F085D20118FAD00F34B8A /* SJNetWorkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJNetWorkingUITests.m; sourceTree = "<group>"; };
 		CE8F085F20118FAD00F34B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE8F086C201192A700F34B8A /* SJNetWorkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJNetWorkManager.h; sourceTree = "<group>"; };
-		CE8F086D201192A700F34B8A /* SJNetWorkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJNetWorkManager.m; sourceTree = "<group>"; };
-		CE8F086F2011937500F34B8A /* SJNetWorkManager+Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SJNetWorkManager+Error.h"; sourceTree = "<group>"; };
-		CE8F08702011937500F34B8A /* SJNetWorkManager+Error.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SJNetWorkManager+Error.m"; sourceTree = "<group>"; };
-		CE8F0872201194F100F34B8A /* SJNetWorkManager+RequestCompletionHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SJNetWorkManager+RequestCompletionHandle.h"; sourceTree = "<group>"; };
-		CE8F0873201194F100F34B8A /* SJNetWorkManager+RequestCompletionHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SJNetWorkManager+RequestCompletionHandle.m"; sourceTree = "<group>"; };
-		CE8F08752011BB6C00F34B8A /* SJNetWorkCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJNetWorkCache.h; sourceTree = "<group>"; };
-		CE8F08762011BB6C00F34B8A /* SJNetWorkCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJNetWorkCache.m; sourceTree = "<group>"; };
-		CE8F087A2011D05100F34B8A /* UIImage+CompressImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressImage.h"; sourceTree = "<group>"; };
-		CE8F087B2011D05100F34B8A /* UIImage+CompressImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressImage.m"; sourceTree = "<group>"; };
+		CE8F087E2011EE3C00F34B8A /* SJNetWorkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetWorkCache.h; sourceTree = "<group>"; };
+		CE8F087F2011EE3C00F34B8A /* SJNetWorkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetWorkCache.m; sourceTree = "<group>"; };
+		CE8F08802011EE3C00F34B8A /* SJNetWorkManager+Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SJNetWorkManager+Error.h"; sourceTree = "<group>"; };
+		CE8F08812011EE3C00F34B8A /* SJNetWorkManager+Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SJNetWorkManager+Error.m"; sourceTree = "<group>"; };
+		CE8F08822011EE3C00F34B8A /* SJNetWorkManager+RequestCompletionHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SJNetWorkManager+RequestCompletionHandle.h"; sourceTree = "<group>"; };
+		CE8F08832011EE3C00F34B8A /* SJNetWorkManager+RequestCompletionHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SJNetWorkManager+RequestCompletionHandle.m"; sourceTree = "<group>"; };
+		CE8F08842011EE3C00F34B8A /* SJNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetWorkManager.h; sourceTree = "<group>"; };
+		CE8F08852011EE3C00F34B8A /* SJNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetWorkManager.m; sourceTree = "<group>"; };
+		CE8F08862011EE3C00F34B8A /* UIImage+CompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressImage.h"; sourceTree = "<group>"; };
+		CE8F08872011EE3C00F34B8A /* UIImage+CompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressImage.m"; sourceTree = "<group>"; };
 		DD740A95147A918442F899D5 /* Pods-SJNetWorkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJNetWorkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJNetWorkingTests/Pods-SJNetWorkingTests.release.xcconfig"; sourceTree = "<group>"; };
 		F365BDEC2F5051ABD473809E /* libPods-SJNetWorkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJNetWorkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4872ADC2C4A74891D75FD8B /* libPods-SJNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJNetWorking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,7 @@
 		CE8F083820118FAD00F34B8A /* SJNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				CE8F086B20118FC900F34B8A /* SJNetFrame */,
+				CE8F087D2011EE3C00F34B8A /* SJNetFrame */,
 				CE8F083920118FAD00F34B8A /* AppDelegate.h */,
 				CE8F083A20118FAD00F34B8A /* AppDelegate.m */,
 				CE8F083C20118FAD00F34B8A /* ViewController.h */,
@@ -188,22 +188,22 @@
 			path = SJNetWorkingUITests;
 			sourceTree = "<group>";
 		};
-		CE8F086B20118FC900F34B8A /* SJNetFrame */ = {
+		CE8F087D2011EE3C00F34B8A /* SJNetFrame */ = {
 			isa = PBXGroup;
 			children = (
-				CE8F086C201192A700F34B8A /* SJNetWorkManager.h */,
-				CE8F086D201192A700F34B8A /* SJNetWorkManager.m */,
-				CE8F0872201194F100F34B8A /* SJNetWorkManager+RequestCompletionHandle.h */,
-				CE8F0873201194F100F34B8A /* SJNetWorkManager+RequestCompletionHandle.m */,
-				CE8F086F2011937500F34B8A /* SJNetWorkManager+Error.h */,
-				CE8F08702011937500F34B8A /* SJNetWorkManager+Error.m */,
-				CE8F08752011BB6C00F34B8A /* SJNetWorkCache.h */,
-				CE8F08762011BB6C00F34B8A /* SJNetWorkCache.m */,
-				CE8F087A2011D05100F34B8A /* UIImage+CompressImage.h */,
-				CE8F087B2011D05100F34B8A /* UIImage+CompressImage.m */,
+				CE8F087E2011EE3C00F34B8A /* SJNetWorkCache.h */,
+				CE8F087F2011EE3C00F34B8A /* SJNetWorkCache.m */,
+				CE8F08802011EE3C00F34B8A /* SJNetWorkManager+Error.h */,
+				CE8F08812011EE3C00F34B8A /* SJNetWorkManager+Error.m */,
+				CE8F08822011EE3C00F34B8A /* SJNetWorkManager+RequestCompletionHandle.h */,
+				CE8F08832011EE3C00F34B8A /* SJNetWorkManager+RequestCompletionHandle.m */,
+				CE8F08842011EE3C00F34B8A /* SJNetWorkManager.h */,
+				CE8F08852011EE3C00F34B8A /* SJNetWorkManager.m */,
+				CE8F08862011EE3C00F34B8A /* UIImage+CompressImage.h */,
+				CE8F08872011EE3C00F34B8A /* UIImage+CompressImage.m */,
 			);
 			path = SJNetFrame;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -486,13 +486,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8F08792011C60600F34B8A /* SJNetWorkManager.m in Sources */,
 				CE8F083E20118FAD00F34B8A /* ViewController.m in Sources */,
-				CE8F08772011BB6C00F34B8A /* SJNetWorkCache.m in Sources */,
-				CE8F0874201194F100F34B8A /* SJNetWorkManager+RequestCompletionHandle.m in Sources */,
+				CE8F088A2011EE3C00F34B8A /* SJNetWorkManager+RequestCompletionHandle.m in Sources */,
+				CE8F088B2011EE3C00F34B8A /* SJNetWorkManager.m in Sources */,
 				CE8F084920118FAD00F34B8A /* main.m in Sources */,
-				CE8F087C2011D05100F34B8A /* UIImage+CompressImage.m in Sources */,
-				CE8F08712011937500F34B8A /* SJNetWorkManager+Error.m in Sources */,
+				CE8F08892011EE3C00F34B8A /* SJNetWorkManager+Error.m in Sources */,
+				CE8F088C2011EE3C00F34B8A /* UIImage+CompressImage.m in Sources */,
+				CE8F08882011EE3C00F34B8A /* SJNetWorkCache.m in Sources */,
 				CE8F083B20118FAD00F34B8A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
