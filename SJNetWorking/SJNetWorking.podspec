@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SJNetWorking"
-  s.version      = "0.1.5"
+  s.version      = "1.0.0"
   s.summary      = "简单的网络框架"
 
   s.description  = <<-DESC
@@ -19,14 +19,11 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/songjie1314/SJNetWorking.git", :tag => s.version }
 
-  s.source_files  = "SJNetWorking/SJNetFrame/*.{h,m}"
+s.source_files  = "SJNetWorking/SJNetWorking/*.{h,m}"
 
   s.dependency "AFNetworking"
   s.dependency "YYCache"
 
   s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 
 end
