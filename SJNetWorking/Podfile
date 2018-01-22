@@ -6,9 +6,9 @@ target 'SJNetWorking' do
   # use_frameworks!
 
   # Pods for SJNetWorking
-  pod 'AFNetworking'
-  #:inhibit_warnings => true
-  pod 'YYCache'
+  pod 'AFNetworking', :inhibit_warnings => true
+ 
+  pod 'YYCache'SJNetWorking
   
   
   target 'SJNetWorkingTests' do
